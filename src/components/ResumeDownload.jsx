@@ -2,6 +2,7 @@ import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+
 const ResumeDownload = () => {
     return (
         <motion.div
@@ -12,7 +13,7 @@ const ResumeDownload = () => {
         >
             <h2 className="text-3xl font-bold mb-4">Download My Resume</h2>
             <motion.a
-                href="/resume.pdf"  // Make sure this points to the correct location of your resume
+                href="https://drive.google.com/file/d/12IgJKIWL6c4tR_bGNbijgvD21kJknwUz/view?usp=drive_link"  // Make sure this points to the correct location of your resume
                 download="Resume.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
