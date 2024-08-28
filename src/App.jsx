@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contacts from './components/Contacts';
+import ResumeDownload from './components/ResumeDownload';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <ResumeDownload/>
       <Projects/>
       <Contacts/>
       <Footer/>
