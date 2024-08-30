@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: 'Diamond Price Prediction',
       description: 'It helps to Predict the Price of the Diamond using Machine learning.',
-      imageUrl: "public/Diamond.png",  // Use the path directly
+      imageUrl: "/Diamond.png",  // Use the path directly
       githubLink:"https://github.com/kakderushi/DimondPricePrediction",
     },
     {
