@@ -31,7 +31,7 @@ function Navbar() {
             <img src={pic} className="h-12 w-12 rounded-full" alt="" />
             <h1 className="font-semibold text-xl cursor-pointer">
               Rushikesh kak<span className="text-green-500 text-2xl">de</span>
-              <p className="text-sm">Data Analyst </p>
+              <p className="text-sm">Data Enthusiastic </p>
             </h1>
           </div>
           {/* desktop navbar */}

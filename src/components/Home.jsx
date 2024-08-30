@@ -7,10 +7,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
+import { SiPowerbi } from "react-icons/si"
+import { SiPython } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiScipy } from "react-icons/si";
+
 
 import { ReactTyped } from "react-typed";
 
@@ -29,14 +31,14 @@ function Home() {
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Data Analyst ", "Data Science ", "Front End Devloper"]}
+                strings={["Data Enthusiastic "]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
               />
             </div>
             <br />
-            <p className="text-3lg md:text-md text-justify ">
+            <p className="text-4lg md:text-md text-justify ">
             "Fresher with strong Python skills and hands-on experience in data science projects.
              Proficient in analyzing and visualizing data, applying machine learning techniques, 
              and deriving actionable insights to support data-driven decision-making."
@@ -67,10 +69,11 @@ function Home() {
               <div className=" space-y-2">
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5">
-                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiPowerbi className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiPython className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiMysql className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiScikitlearn className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiScipy className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
             </div>
@@ -84,8 +87,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <hr />
     </>
   );
 }

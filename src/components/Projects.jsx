@@ -1,27 +1,30 @@
 import React from 'react';
-import Diamond from "../../public/Diamond.png";
-import Hospitality from "../../public/Hospitality.jpg"
-import Image from "../../public/image.png"
 
 const Projects = () => {
   const projects = [
     {
       title: 'Diamond Price Prediction',
       description: 'It helps to Predict the Price of the Diamond using Machine learning.',
-      imageUrl: Diamond,
+      imageUrl: "public/Diamond.png",  // Use the path directly
       githubLink:"https://github.com/kakderushi/DimondPricePrediction",
     },
     {
       title: 'Hospitality Domain Analysis',
       description: 'It Analysis the hospitality domain data based on that here we created Power BI Dashbord.',
-      imageUrl: Hospitality,
+      imageUrl: "/Hospitality.jpg",  // Use the path directly
       githubLink:'https://github.com/kakderushi/Hospitality_anlysis',
     },
     {
       title: 'Credit Card Finacial Report ',
       description: 'Credit Card Finacial Report helps to Understand the bank wheather they have to allocate credit card or not.',
-      imageUrl: Image,
-      githubLink: 'https://github.com/yourusername/project-three',
+      imageUrl: "/image.png",  // Use the path directly
+      githubLink: 'https://github.com/kakderushi/Credti-Card-Analysis',
+    },
+    {
+      title: 'Zomato Sales Analysis  ',
+      description: 'It is Power BI Dashboard which helps to understand zomato sales analysis.',
+      imageUrl: "/2nd.png",  // Use the path directly
+      githubLink: 'https://github.com/kakderushi/Zomato-Analysis',
     },
   ];
 
