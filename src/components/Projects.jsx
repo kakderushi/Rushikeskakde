@@ -5,7 +5,7 @@ const Projects = () => {
     {
 
       title: 'StudyNotion EdTeach Website ',
-      description: '•	Designed and developed the Study Notion EdTech website by implementing responsive layouts using React.js and Tailwind CSS.',
+      description: 'Designed and developed the Study Notion EdTech website by implementing responsive layouts using React.js and Tailwind CSS.',
       imageUrl: "/stdunotion.jpg",  // Use the path directly
       githubLink:'https://github.com/kakderushi/StudyNotion/tree/master',
     }
