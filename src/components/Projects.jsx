@@ -3,11 +3,14 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Diamond Price Prediction',
-      description: 'It helps to Predict the Price of the Diamond using Machine learning.',
-      imageUrl: "/Diamond.png",  // Use the path directly
-      githubLink:"https://github.com/kakderushi/DimondPricePrediction",
-    },
+
+      title: 'StudyNotion EdTeach Website ',
+      description: '•	Designed and developed the Study Notion EdTech website by implementing responsive layouts using React.js and Tailwind CSS.',
+      imageUrl: "/stdunotion.jpg",  // Use the path directly
+      githubLink:'https://github.com/kakderushi/StudyNotion/tree/master',
+    }
+    ,
+    
     {
       title: 'Hospitality Domain Analysis',
       description: 'It Analysis the hospitality domain data based on that here we created Power BI Dashbord.',
@@ -25,6 +28,12 @@ const Projects = () => {
       description: 'It is Power BI Dashboard which helps to understand zomato sales analysis.',
       imageUrl: "/2nd.png",  // Use the path directly
       githubLink: 'https://github.com/kakderushi/Zomato-Analysis',
+    },
+    {
+      title: 'Diamond Price Prediction',
+      description: 'It helps to Predict the Price of the Diamond using Machine learning.',
+      imageUrl: "/Diamond.png",  // Use the path directly
+      githubLink:"https://github.com/kakderushi/DimondPricePrediction",
     },
   ];
 
