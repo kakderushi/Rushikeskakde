@@ -4,6 +4,13 @@ const Projects = () => {
   const projects = [
     {
 
+      title: 'Credit Card Defaulter Prediction ',
+      description: 'It Predicts the wheather the customer defualt the payment or not.',
+      imageUrl: "/CreditcardImg.jpg", // Use the path directly
+      githubLink:'https://github.com/kakderushi/CreditCardPrediction',
+    },
+    {
+
       title: 'StudyNotion EdTeach Website ',
       description: 'Designed and developed the Study Notion EdTech website by implementing responsive layouts using React.js and Tailwind CSS.',
       imageUrl: "/stdunotion.jpg",  // Use the path directly
