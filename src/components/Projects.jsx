@@ -4,6 +4,13 @@ const Projects = () => {
   const projects = [
     {
 
+      title: 'WhatsApp chat Analyser  ',
+      description: 'It is useful for understanding communication dynamics ',
+      imageUrl: "/whatchat.png", // Use the path directly
+      githubLink:"https://github.com/kakderushi/whatsapp-chat-analysis-main",
+    },
+    {
+
       title: 'Credit Card Defaulter Prediction ',
       description: 'It Predicts the wheather the customer defualt the payment or not.',
       imageUrl: "/CreditcardImg.jpg", // Use the path directly
